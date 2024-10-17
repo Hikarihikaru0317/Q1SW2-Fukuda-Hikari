@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login Page</title>
+	<style type="text/css">
+		     body{
+      font-family:'Courier New';
+      background-color:#427AA1 ;
+      margin: 0;
+      padding: 10px;
+     }
+     .header{
+        text-align: center;
+        padding: 10px;
+        background-color: #E0E6FF;
+        color: black;
+        font-family: "ofadi One",system-ui;
+     }
+      .container{
+        max-width: 400px;
+        margin: 50px auto;
+        padding: 10px;
+        background: #FFFFFF;
+        border-radius: 5px;
+        box-shadow: 0 0 15px rgb(0, 0, 0 / 0.1);
+     }
+      .container h2{
+      text-align: center;
+      margin-bottom: 20px;
+      font-family: 'Times New Roman's;
+     }
+    .container input[type="text"],
+        .container input[type="password"],
+        .container input[type="file"] {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-family: 'Times New roman', monospace;
+        }
+      .container input[type="submit"] {
+            width: 50%;
+            padding: 10px;
+            background: #05668D;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.5s ease; 
+        }
+        .container input[type="submit"]:hover {
+            background: #945676;
+        }
+
+     }
+     .Footer{
+      text-align: center;
+      margin-top: 15Spx;
+     }
+     .logo{
+      display: inline-block;
+      margin: 30px auto;
+      width: 90px;
+      height: auto;
+      border-radius: 50%;
+      object-fit: cover;
+     }
+     .account-info {
+            max-width: 550px;
+            margin: 50px auto;
+            padding: 10px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: none; 
+            opacity: 0;
+            transform: translateY(10px);
+           transition: opacity 0.5s ease, transform 0.5s ease; 
+        }
+        h3{
+         text-align: center;
+        }
+        h2{
+         font-family: "ofadi One", system-ui;
+        }
+
+			
+		</style>
+
+</head>
+<body>
+ 	<div class="header">
+ 		<h1>Welcome to my Website</h1>
+ 	</div>
+ 	<div class="container">
+ 		<h2>Log in<form> 
+ 			<center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDATulEWG0DCFI390jQDZdpeD9X6ArTMYr8A&s" class="logo"></center>
+        <form id="loginForm">
+            <input type="file" accept="image/*" id="fileInput" name="profilePicture">
+            <input type="text" name="username" placeholder="Username" required>
+            <br>
+            <input type="password" id="passwordInput" name="password" placeholder="Password" required>
+            <br> 
+            <input type="submit" value="Login">
+        </form>
+    </div>
+ 		
+ 	
+ 	<!--Footer -->
+ 	<div class="footer">
+ 		 <center><h3>Hikari Fukuda | 9-Emerald</h3></center>
+    </div>
+
+                
+    </script>
+</body>
+</html>
+
+
